@@ -17,4 +17,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=gts3lltexx
 
 # Root
-WITH_SU := true
+# WITH_SU := true
