@@ -65,7 +65,7 @@ ro.qcom.hdr.config=/system/vendor/etc/hdr_tm_config.xml
 
 # Display
 ro.sf.lcd_density=320
-ro.sf.hwrotation=90
+ro.sf.hwrotation=270
 lockscreen.rot_override=true
 
 #Graphics properties
