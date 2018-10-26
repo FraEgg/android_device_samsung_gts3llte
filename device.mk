@@ -82,6 +82,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     firefox \
 	signal \
+	osmand \
+	vlc \
 	fakegps
 
 # ANT+
