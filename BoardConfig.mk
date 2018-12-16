@@ -55,9 +55,9 @@ BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
 TARGET_KERNEL_CONFIG := lineage_gts3llte_defconfig
 
 # My Custom Toolchain (UBERTC)
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
-KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/aarch64/gcc-prebuilts-4.9-kernel/bin/"
+#TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
+#KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
+#KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/aarch64/gcc-prebuilts-4.9-kernel/bin/"
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8996
