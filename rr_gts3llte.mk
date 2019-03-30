@@ -9,7 +9,7 @@ $(call inherit-product, device/samsung/gts3llte/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_gts3llte
+PRODUCT_NAME := rr_gts3llte
 PRODUCT_DEVICE := gts3llte
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := SM-T825
