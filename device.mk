@@ -20,6 +20,15 @@ $(call inherit-product-if-exists, vendor/samsung/gts3llte/gts3llte-vendor.mk)
 
 LOCAL_PATH := device/samsung/gts3llte
 
+# AndroidBw
+PRODUCT_PACKAGES += \
+     firefox \
+     signal \
+     osmand \
+     vlc \
+#    fakegps \
+     bwcommunity
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
